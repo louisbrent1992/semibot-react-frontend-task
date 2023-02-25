@@ -1,27 +1,7 @@
 import axios from "axios";
 import React, { useCallback, useEffect, useState } from "react";
-import styled from "styled-components";
 import SearchResults from "./SearchResults";
-
-const Container = styled.div`
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-direction: column;
-`;
-
-const InputContainer = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-`;
-
-const Input = styled.input`
-  width: 50%;
-  border-style: none;
-  border-bottom: 1px solid #ccc;
-  font-size: 16px;
-`;
+import { Container, InputContainer, Input } from "../styles/SearchBarStyles";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -63,7 +43,6 @@ const SearchBar = () => {
           placeholder="Search"
         />
       </InputContainer>
-
       <SearchResults data={data} searchTerm={searchTerm} />
     </Container>
   );

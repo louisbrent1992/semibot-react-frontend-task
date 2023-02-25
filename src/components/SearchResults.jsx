@@ -1,13 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-
-const Container = styled.ol``;
-
-const Title = styled.h3`
-  font-family: Roboto;
-  font-weight: 700;
-`;
-const Thumbnail = styled.img``;
+import {
+  Container,
+  Album,
+  Title,
+  Thumbnail,
+} from "../styles/SearchResultsStyles";
 
 function SearchResults(props) {
   const { data, searchTerm } = props;
@@ -18,13 +15,13 @@ function SearchResults(props) {
   return (
     <Container>
       {filteredData.map((item) => (
-        <li key={item.id}>
+        <Album key={item.id}>
           <Thumbnail
             src={item.thumbnailUrl}
-            alt={`Art for ${item.title}. © 2023`}
+            alt={`Artwork for ${item.title}. © 2023`}
           />
           <Title>{item.title.toUpperCase()}</Title>
-        </li>
+        </Album>
       ))}
     </Container>
   );

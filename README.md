@@ -33,9 +33,11 @@ Contributors names and contact info
 
 ## Version History
 
+- 0.9
+  - Moved styles to separate files and other small optimizations for a cleaner look.
+  - See [commit change history](https://github.com/louisbrent1992/semibot-react-frontend-task/commits/main)
 - 0.8
   - Updated Readme
-  - See [commit change history](https://github.com/louisbrent1992/semibot-react-frontend-task/commits/main)
 - 0.7
   - Updated App for rendering and other optimizations
 - 0.6
@@ -47,11 +49,11 @@ Contributors names and contact info
 - 0.3
   - Created navBar component with expanded view capabilities.
 - 0.2
-  - Install package dependencies for project
+  - Installed package dependencies for project
 - 0.1
   - Initial Release
 
-## AcknowledgmentS
+## Acknowledgments
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
