@@ -35,7 +35,7 @@ Contributors names and contact info
 
 - 0.8
   - Updated Readme
-  - See [commit change]() or See [release history]()
+  - See [commit change history](https://github.com/louisbrent1992/semibot-react-frontend-task/commits/main)
 - 0.7
   - Updated App for rendering and other optimizations
 - 0.6
