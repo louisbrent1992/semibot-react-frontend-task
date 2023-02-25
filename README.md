@@ -51,10 +51,6 @@ Contributors names and contact info
 - 0.1
   - Initial Release
 
-## License
-
-This project is licensed under the [LOUIS BRENT] License - see the LICENSE.md file for details
-
 ## AcknowledgmentS
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)
